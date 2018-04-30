@@ -30,6 +30,6 @@ public class Application extends SpringBootServletInitializer {
 	 */
 	@RequestMapping(value="/hello")
 	public String Demo() {
-		return "Hello World!!";
+		return "Hello World!!!";
 	}
 }
