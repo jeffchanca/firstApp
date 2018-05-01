@@ -10,9 +10,9 @@ public class VehicleController {
 	@RequestMapping(value="/car")
 	public ResponseEntity<Car> get() {
 		Car car = new Car();
-		car.setColor("Red");
-		car.setMiles(100);
-		car.setVIN("12345");
+		car.setColor("Black");
+		car.setMiles(45020);
+		car.setVIN("033-CQK");
 		
 		return new ResponseEntity<Car>(car, HttpStatus.OK);
 	}
